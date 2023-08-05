@@ -25,6 +25,6 @@
 
 * [**Basin Discord**](https://basin.exchange/discord)
 * [**Basin Twitter**](https://twitter.com/basinexchange)
-* Basin Telegram Tracker (TBD)
+* [Basin Telegram Tracker](https://t.me/basintracker)
 * [Beanstalk Farms Twitter](https://twitter.com/BeanstalkFarms)
 * [Beanstalk Farms YouTube](https://www.youtube.com/@BeanstalkFarms)
