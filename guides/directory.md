@@ -12,4 +12,5 @@ The following guides have step-by-step walkthroughs for connecting to and intera
 
 * [Add Liquidity](using-wells/add-liquidity.md)
 * [Remove Liquidity](using-wells/remove-liquidity.md)
+* [View my Liquidity](using-wells/view-my-liquidity.md)
 * [Swap](using-wells/swap.md)
