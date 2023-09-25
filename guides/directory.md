@@ -1,6 +1,6 @@
 # Directory
 
-The following guides have step-by-step walkthroughs for connecting to and interacting with Basin on your desktop internet browser or mobile phone.
+The following guides have step-by-step walkthroughs for connecting to and interacting with Basin and Wells.
 
 ### Basics
 
