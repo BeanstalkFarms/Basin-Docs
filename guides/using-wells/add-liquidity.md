@@ -3,7 +3,7 @@
 1. Make sure you are on [basin.exchange](https://basin.exchange/) and [connect your wallet](../basics/connect-to-basin.md).
 2. Navigate to the “Liquidity” page. The "View Wells" tab shows available Wells. Currently, you can add liquidity to the BEAN/WETH Well.
 3. Select the Well and select "Add/Rm Liquidity".
-4. Under "Add Liqudity", input the quantity of each token you want to add in exchange for LP tokens.
+4. Under "Add Liquidity", input the quantity of each token you want to add in exchange for LP tokens.
    * If you have both tokens, you can select "Add tokens in balanced proportion" to add an equal dollar value of each token.
    * If you are adding only one token, your transaction will have a price impact on the Well.
 5. A transaction preview including price impact can be viewed by expanding the "Expected Output" toggle.
