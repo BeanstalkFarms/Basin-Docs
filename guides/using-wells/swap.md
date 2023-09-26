@@ -14,4 +14,4 @@ Tokens in Wells can be bought and sold on the [Swap](https://basin.exchange/#/sw
 11. Confirm the approval transaction in your wallet, and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../resources/contracts.md) before signing it.
 12. Select “Swap”.
 13. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../resources/contracts.md) before signing it.
-14. After the transaction has been confirmed by the network, your received tokens will be in your wallet.
+14. After the transaction has been confirmed by the network, your tokens will be in your wallet.
