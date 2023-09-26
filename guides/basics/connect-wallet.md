@@ -3,7 +3,7 @@
 In addition to an internet connection, interacting with Basin requires:
 
 1. A supported Ethereum wallet with an ETH balance.
-   * [Selecting and Funding a Wallet](connect-wallet.md#selecting-a-wallet)
+   * [Selecting and Funding a Wallet](connect-wallet.md#selecting-and-funding-a-wallet)
 2. Connecting your Ethereum wallet to Basin.
    * [Connect to Basin with MetaMask - Desktop](connect-wallet.md#connect-to-basin-with-metamask-desktop)
    * [Connect to Basin with MetaMask - Mobile](connect-wallet.md#connect-to-basin-with-metamask-mobile)
