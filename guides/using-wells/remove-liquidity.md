@@ -1,6 +1,6 @@
 # Remove Liquidity
 
-1. Make sure you are on [basin.exchange](https://basin.exchange/) and [connect your wallet](../basics/connect-wallet.md).
+1. Make sure you are on [basin.exchange](https://basin.exchange/) and [connect your wallet](../basics/connect-to-basin.md).
 2. Navigate to the “Liquidity” page. Under the "My Liquidity Positions" tab, select the Well from which you want to remove liquidity.
 3. Select "Add/Rm Liquidity" then "Remove Liquidity".
 4. Input the quantity of LP tokens you would like to remove.
@@ -14,4 +14,3 @@
 9. Select “Remove Liquidity”.
 10. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../resources/contracts.md) before signing it.
 11. After the transaction has been confirmed by the network, your tokens will be in your wallet.
-    
