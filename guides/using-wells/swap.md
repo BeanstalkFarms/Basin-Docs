@@ -10,7 +10,7 @@ Tokens in Wells can be bought and sold on the [Swap](https://basin.exchange/#/sw
 6. Verify the amount of the output token you will receive in the output field.
 7. A transaction preview will appear below the inputs. Select the “Minimum Output” dropdown to review each step of the transaction.
 8. You may select a slippage tolerance by selecting the gear icon under "Minimum Output". The default slippage tolerance is 0.1%.
-9. If you are trading ETH or have previously approved the token being spent, skip to Step 12. For all other tokens, select “Approve \[Token]”. This allows the Basin contract to spend the token, but does not execute the trade yet.
+9. If you are trading ETH or have previously approved the token being spent, skip to Step 11. For all other tokens, select “Approve \[Token]”. This allows the Basin contract to spend the token, but does not execute the trade yet.
 10. Confirm the approval transaction in your wallet, and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../resources/contracts.md) before signing it.
 11. Select “Swap”.
 12. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../resources/contracts.md) before signing it.
