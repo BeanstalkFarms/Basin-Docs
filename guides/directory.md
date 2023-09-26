@@ -4,8 +4,8 @@ The following guides have step-by-step walkthroughs for connecting to and intera
 
 ### Basics
 
-* [Connect to Basin](basics/connect-wallet.md)
-* [Approve Contracts](basics/approvals.md)
+* [Connect to Basin](basics/connect-to-basin.md)
+* [Approve Contracts](basics/approve-contracts.md)
 * [Add Bean to MetaMask](basics/add-bean-to-metamask.md)
 
 ### Using Wells
