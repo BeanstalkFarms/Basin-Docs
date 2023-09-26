@@ -11,9 +11,9 @@ In addition to an internet connection, interacting with Basin requires:
 
 ### **Selecting and Funding a Wallet**
 
-Ethereum wallets are applications that let you manage your Ethereum account. Your wallet lets you connect to decentralized applications such as Beanstalk and authorize transactions. On Ethereum, you are responsible for the security of your own funds. If you are new to decentralized finance, it strongly recommend to research best practices in wallet security before proceeding.
+Ethereum wallets are applications that let you manage your Ethereum account. Your wallet lets you connect to decentralized applications such as Basin and authorize transactions. On Ethereum, you are responsible for the security of your own funds. If you are new to decentralized finance, it strongly recommend to research best practices in wallet security before proceeding.
 
-Beanstalk officially supports MetaMask and Coinbase Wallet on desktop and mobile. Although not officially supported, you may be able to connect other wallets such as Brave, Frame or Rabby by selecting MetaMask on [basin.exchange](https://basin.exchange/). WalletConnect is not yet supported.
+Basin officially supports MetaMask and Coinbase Wallet on desktop and mobile. Although not officially supported, you may be able to connect other wallets such as Brave, Frame or Rabby by selecting MetaMask on [basin.exchange](https://basin.exchange/). WalletConnect is not yet supported.
 
 Some wallets allow purchasing ETH directly within the wallet. Alternatively, send ETH from a cryptocurrency exchange to your wallet address. Make sure both sending and receiving addresses are on the Ethereum network.
 
