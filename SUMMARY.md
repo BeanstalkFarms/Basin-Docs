@@ -20,6 +20,10 @@
 * [Overview](implementations/overview.md)
 * [Multi Flow Pump](implementations/multi-flow-pump.md)
 
+## 🗺 Guides
+
+* [Directory](guides/directory.md)
+
 ## 📖 Resources
 
 * [Discord](https://basin.exchange/discord)
