@@ -6,7 +6,7 @@
 * [**Docs**](https://docs.basin.exchange/)
 * [**Discord**](https://basin.exchange/discord)
 * [**GitHub**](https://github.com/BeanstalkFarms#basin-1)
-* [Bug Bounty Program](https://immunefi.com/bounty/beanstalk/)
+* [**Bug Bounty Program**](https://immunefi.com/bounty/beanstalk/)
 
 ### Documentation
 
