@@ -2,8 +2,6 @@
 
 Basin is a composable DEX protocol, meaning that it has various modular components that can be composed together to create new liquidity pools. These components are [Well Functions](https://docs.basin.exchange/components/well#well-function), [Well implementations](https://docs.basin.exchange/components/well#well-implementation) and network-native oracles known as [Pumps](https://docs.basin.exchange/components/pump). 
 
-There are two primary ways to deploy a new Well.
-
 The simplest way for someone to deploy a new Well is by calling the ```boreWell``` function on the [Aquifer](https://docs.basin.exchange/components/aquifer) (factory) contract. ```boreWell``` accepts the encoded addresses of each Well component as input, along with additional parameters such as the Well's name and symbol and a salt for deterministic address generation. It then verifies that the calldata is valid and clones a pre-deployed Well template with the new parameters. In addition, a mapping of the new Well address to the existing Well Implementation address is stored in the Aquifer contract. Here how it looks like in a step by step guide:
 
 ## Step by step guide to deploy a new Well
@@ -23,10 +21,9 @@ Finally, decide on a Well name and symbol. These can be any string of your choic
 After getting the necessary parameters described above for the new Well, you will need to properly encode them for the Aquifer contract. There are 2 parts of calldata that need to be encoded. The first is the ```init``` function call on the Well Implementation contract, to initialize the new Well with the name and symbol. The second is the immutable data of the well, which includes the addresses of the tokens, the Pump and the Well Function.
 These 2 parts should be encoded separately by using the ```abi.encodePacked``` function in Solidity or the alternative ```ethers.solidityPacked``` in JavaScript using the ```ethers``` library.
 
-Here is an example of how to encode the data using ```ethers.js``` starting with the ```init``` function call. For the Well Implementation ABI, you can take a look at the verified Well Implementation contracts on [Etherscan](https://etherscan.io/address/0xBA510e11eEb387fad877812108a3406CA3f43a4B#code).
+Here is an example of how to encode the data using ```ethers.js``` starting with the ```init``` function call. To obtain the Well Implementation ABI, you can take a look at the verified Well Implementation contracts on [Etherscan](https://etherscan.io/address/0xBA510e11eEb387fad877812108a3406CA3f43a4B#code).
 
 ```javascript
-// Encodes the init function call for the well implementation
 async function encodeInitFunctionCall(wellImplementationAbi, wellName, wellSymbol) {
     const wellInterface = new hre.ethers.Interface(wellImplementationAbi)
                                           // function   name,  symbol     
@@ -43,7 +40,6 @@ const initFunctionCall = await encodeInitFunctionCall(wellImplementationAbi, wel
 Here is an example of how to encode the immutable data of the Well:
 
 ```javascript
-// encodeWellImmutableData encodes the immutable data for a well
 function encodeWellImmutableData(
     aquifer,
     tokens,
@@ -89,11 +85,16 @@ function encodeWellImmutableData(
   }
 
 // Example usage
-const aquifer = "<AQUIFER-ADDRESS>";
-const wellFunctionAddress = "<WELL-FUNCTION-ADDRESS>";
-const pumpAddress = "<PUMP-ADDRESS>";
-const token1 = "<TOKEN1-ADDRESS>";
-const token2 = "<TOKEN2-ADDRESS>";
+// Aquifer address on mainnet
+const aquifer = "0xBA51AAAA95aeEFc1292515b36D86C51dC7877773"; 
+// Well function and pump addresses on mainnet
+const wellFunctionAddress = "0xBA510C20FD2c52E4cb0d23CFC3cCD092F9165a6E";
+const pumpAddress = "0xBA510f10E3095B83a0F33aa9ad2544E22570a87C";
+// Token addresses
+// wBTC
+const token1 = "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599";
+// wETH
+const token2 = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
 const tokens = [token1, token2];
 const wellFunction = { target: wellFunctionAddress, data: '0x', length: 0 }; // well function
 const pumps = [{ target: pumpAddress, data: '0x', length: 0 }]; // pumps
@@ -111,9 +112,9 @@ Encoded Init Data:
 
 
 ### 3. Choose a salt for deterministic address generation.
-The `salt` is an additional parameter thats used to calculate the address of the deployed well. This allows it to be deployed on different EVM chains and have the same deterministic address, as long it uses the same salt. It also allows for the creation of vanity addresses by mining for a salt value that gives the wanted address. The salt is optional and can be any 32 byte value. It is recommended to use a random value for the salt to know where the new Well will be deployed beforehand.
+The `salt` is an additional parameter thats used to calculate the address of the deployed well. This allows it to be deployed on different EVM chains and have the same deterministic address, as long it uses the same salt. It also allows for the creation of vanity addresses by mining for a salt value that gives the wanted address. The salt is optional and can be any 32 byte value. It is recommended to use a random value for the salt to know the exact address of new Well before deploying it. 
 
-### 4. Call the boreWell function on the Aquifer contract with the encoded data as the parameter.
+### 4. Call the boreWell function on the Aquifer contract with the encoded data as parameters.
 
 You are now ready to call the ```boreWell``` function on the Aquifer contract with the encoded data as the parameter! The call would look something like this in JavaScript:
 
@@ -128,4 +129,9 @@ You are now ready to call the ```boreWell``` function on the Aquifer contract wi
 
 Congratulations! You have now deployed a new Well on Basin. The new Well will be deployed at the address returned by the ```boreWell``` function. You can now use the new Well to provide liquidity and trade tokens. 
 
-All of the above can be achieved only assuming all the required components used in the new Well are already deployed. Thourough verification of the components is required beforehand to ensure the Well is deployed correctly. You can find the addresses for audited and deployed versions of each Well component [here](https://docs.basin.exchange/resources/contracts).
+### Well Deployer CLI Tool
+To reduce complexity and combine the above steps, we have created a tool that can be used to deploy a new Well using an intuitive command line interface. The CLI tool can be found on the Beanstak Farms GitHub repository [here](https://github.com/BeanstalkFarms/Basin-Well-Deployer) with instructions on how to use it. If you have any questions or need help using the CLI tool, feel free to reach out on the official Basin [Discord](https://basin.exchange/discord).
+
+#### Important Notes
+
+All of the above can be achieved only assuming all the required components used in the new Well are already deployed. Thourough verification of the components is required beforehand to ensure the Well is deployed correctly. You can find the addresses for audited and deployed versions of each Well component [here](https://docs.basin.exchange/resources/contracts). Basin is new and constantly evolving, so a limited amount of Well components are available at the moment. As new components get added to the protocol the list of available components will be updated.
