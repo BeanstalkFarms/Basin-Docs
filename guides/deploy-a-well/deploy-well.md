@@ -2,7 +2,12 @@
 
 Basin is a composable DEX protocol, meaning that it has various modular components that can be composed together to create new liquidity pools. These components are [Well Functions](https://docs.basin.exchange/components/well#well-function), [Well implementations](https://docs.basin.exchange/components/well#well-implementation) and network-native oracles known as [Pumps](https://docs.basin.exchange/components/pump). 
 
-The simplest way for someone to deploy a new Well is by calling the ```boreWell``` function on the [Aquifer](https://docs.basin.exchange/components/aquifer) (factory) contract. ```boreWell``` accepts the encoded addresses of each Well component as input, along with additional parameters such as the Well's name and symbol and a salt for deterministic address generation. It then verifies that the calldata is valid and clones a pre-deployed Well template with the new parameters. In addition, a mapping of the new Well address to the existing Well Implementation address is stored in the Aquifer contract. Here how it looks like in a step by step guide:
+
+The simplest way for someone to deploy a new Well is by calling the ```boreWell``` function on the [Aquifer](https://docs.basin.exchange/components/aquifer) (factory) contract. ```boreWell``` accepts the encoded addresses of each Well component as input, along with additional parameters such as the Well's name and symbol and a salt for deterministic address generation. It then verifies that the calldata is valid and clones a pre-deployed Well template with the new parameters. In addition, a mapping of the new Well address to the existing Well Implementation address is stored in the Aquifer contract.
+
+### Well Deployer CLI Tool
+
+To reduce complexity and combine the steps below, you can use the CLI tool found on the Beanstak Farms GitHub repository [here](https://github.com/BeanstalkFarms/Basin-Well-Deployer) with instructions on how to use it. If you have any questions or need help using the CLI tool, feel free to reach out on the official Basin [Discord](https://basin.exchange/discord). Otherwise, you can follow the steps detailed below.
 
 ## Step by step guide to deploy a new Well
 
@@ -128,9 +133,6 @@ You are now ready to call the ```boreWell``` function on the Aquifer contract wi
 ```
 
 Congratulations! You have now deployed a new Well on Basin. The new Well will be deployed at the address returned by the ```boreWell``` function. You can now use the new Well to provide liquidity and trade tokens. 
-
-### Well Deployer CLI Tool
-To reduce complexity and combine the above steps, we have created a tool that can be used to deploy a new Well using an intuitive command line interface. The CLI tool can be found on the Beanstak Farms GitHub repository [here](https://github.com/BeanstalkFarms/Basin-Well-Deployer) with instructions on how to use it. If you have any questions or need help using the CLI tool, feel free to reach out on the official Basin [Discord](https://basin.exchange/discord).
 
 #### Important Notes
 
