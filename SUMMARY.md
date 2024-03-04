@@ -20,7 +20,7 @@
 * [Overview](implementations/overview.md)
 * [Multi Flow Pump](implementations/multi-flow-pump.md)
 
-## 🗺 Guides
+## 🗺️ Guides
 
 * [Directory](guides/directory.md)
 * [Basics](guides/basics/README.md)
@@ -32,6 +32,8 @@
   * [Remove Liquidity](guides/using-wells/remove-liquidity.md)
   * [View my Liquidity](guides/using-wells/view-my-liquidity.md)
   * [Swap](guides/using-wells/swap.md)
+* [Deploying Wells](guides/deploying-wells/README.md)
+  * [Deploy a Well](guides/deploying-wells/deploy-a-well.md)
 
 ## 📖 Resources
 
