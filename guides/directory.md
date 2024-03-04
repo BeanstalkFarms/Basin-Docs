@@ -14,3 +14,8 @@ The following guides have step-by-step walkthroughs for connecting to and intera
 * [Remove Liquidity](using-wells/remove-liquidity.md)
 * [View my Liquidity](using-wells/view-my-liquidity.md)
 * [Swap](using-wells/swap.md)
+
+### Deploy a new Well
+
+* [Deploy a new Well step by step guide](deploy-a-well/deploy-well.md)
+
