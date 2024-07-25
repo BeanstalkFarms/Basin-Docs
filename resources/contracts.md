@@ -10,4 +10,4 @@
 
 ### Ecosystem
 
-<table><thead><tr><th width="214">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Pipeline</td><td><a href="../risks.md">0xb1bE0000C6B3C62749b5F0c92480146452D15423</a></td></tr><tr><td>Depot</td><td><a href="https://etherscan.io/address/0xDEb0f00071497a5cc9b4A6B96068277e57A82Ae2">0xDEb0f00071497a5cc9b4A6B96068277e57A82Ae2</a></td></tr><tr><td>Beanstalk</td><td>See <a href="https://docs.bean.money/almanac/protocol/contracts">Beanstalk docs</a></td></tr></tbody></table>
+<table><thead><tr><th width="214">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Pipeline</td><td><a href="https://etherscan.io/address/0xb1bE0000C6B3C62749b5F0c92480146452D15423">0xb1bE0000C6B3C62749b5F0c92480146452D15423</a></td></tr><tr><td>Depot</td><td><a href="https://etherscan.io/address/0xDEb0f00071497a5cc9b4A6B96068277e57A82Ae2">0xDEb0f00071497a5cc9b4A6B96068277e57A82Ae2</a></td></tr><tr><td>Beanstalk</td><td>See <a href="https://docs.bean.money/almanac/protocol/contracts">Beanstalk docs</a></td></tr></tbody></table>
