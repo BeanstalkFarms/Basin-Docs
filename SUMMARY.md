@@ -26,7 +26,6 @@
 * [Basics](guides/basics/README.md)
   * [Connect to Basin](guides/basics/connect-to-basin.md)
   * [Approve Contracts](guides/basics/approve-contracts.md)
-  * [Add Bean to MetaMask](guides/basics/add-bean-to-metamask.md)
 * [Using Wells](guides/using-wells/README.md)
   * [Add Liquidity](guides/using-wells/add-liquidity.md)
   * [Remove Liquidity](guides/using-wells/remove-liquidity.md)

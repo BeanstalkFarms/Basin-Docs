@@ -6,7 +6,7 @@ The following guides have step-by-step walkthroughs for connecting to and intera
 
 * [Connect to Basin](basics/connect-to-basin.md)
 * [Approve Contracts](basics/approve-contracts.md)
-* [Add Bean to MetaMask](basics/add-bean-to-metamask.md)
+* [Add Bean to MetaMask](broken-reference)
 
 ### Using Wells
 
@@ -18,4 +18,3 @@ The following guides have step-by-step walkthroughs for connecting to and intera
 ### Deploy a new Well
 
 * [Deploy a new Well step by step guide](deploy-a-well/deploy-well.md)
-

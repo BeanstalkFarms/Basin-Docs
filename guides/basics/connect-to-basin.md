@@ -2,26 +2,26 @@
 
 In addition to an internet connection, interacting with Basin requires:
 
-1. A supported Ethereum wallet with an ETH balance.
+1. A supported Ethereum or Arbitrum wallet with an ETH balance.
    * [Selecting and Funding a Wallet](connect-to-basin.md#selecting-and-funding-a-wallet)
-2. Connecting your Ethereum wallet to Basin.
+2. Connecting your Ethereum or Arbitrum wallet to Basin.
    * [Connect to Basin with MetaMask - Desktop](connect-to-basin.md#connect-to-basin-with-metamask-desktop)
    * [Connect to Basin with MetaMask - Mobile](connect-to-basin.md#connect-to-basin-with-metamask-mobile)
    * [Connect to Basin with Coinbase Wallet](connect-to-basin.md#connect-to-basin-with-coinbase-wallet)
 
 ### **Selecting and Funding a Wallet**
 
-Ethereum wallets are applications that let you manage your Ethereum account. Your wallet lets you connect to decentralized applications such as Basin and authorize transactions. On Ethereum, you are responsible for the security of your own funds. If you are new to decentralized finance, it strongly recommend to research best practices in wallet security before proceeding.
+Ethereum and Arbitrum wallets are applications that let you manage your Ethereum or Arbitrum accounts, respectively. Your wallet lets you connect to decentralized applications such as Basin and authorize transactions. On Ethereum and Arbitrum, you are responsible for the security of your own funds. If you are new to decentralized finance, it strongly recommend to research best practices in wallet security before proceeding.
 
 Basin officially supports MetaMask and Coinbase Wallet on desktop and mobile. Although not officially supported, you may be able to connect other wallets such as Brave, Frame or Rabby by selecting MetaMask on [basin.exchange](https://basin.exchange/). WalletConnect is not yet supported.
 
-Some wallets allow purchasing ETH directly within the wallet. Alternatively, send ETH from a cryptocurrency exchange to your wallet address. Make sure both sending and receiving addresses are on the Ethereum network.
+Some wallets allow purchasing ETH directly within the wallet. Alternatively, send ETH from a cryptocurrency exchange to your wallet address. Make sure both sending and receiving addresses are on the same network.
 
 ### **Connect to Basin with MetaMask - Desktop**
 
 **1. Create a MetaMask Wallet**
 
-MetaMask is an Ethereum wallet that facilitates interaction with the Basin website.
+MetaMask is an Ethereum/Arbitrum wallet that facilitates interaction with the Basin website.
 
 1. Visit [metamask.io/download](https://metamask.io/download/).
 2. Select "Install MetaMask For \[your browser]".
@@ -45,14 +45,14 @@ MetaMask is an Ethereum wallet that facilitates interaction with the Basin websi
 
 This step may be unnecessary if you performed Step 2.
 
-1. Copy your MetaMask Ethereum wallet address.
+1. Copy your MetaMask Ethereum/Arbitrum wallet address.
 2. Send your ETH to your MetaMask wallet address from your current ETH wallet or an exchange.
 
 **4. Connect Your MetaMask Wallet to Basin**
 
 1. Visit [basin.exchange](https://basin.exchange/).
 2. Select "Connect Wallet" in the top right of the page.
-3. Click the MetaMask icon and confirm that you are on the Ethereum mainnet. If not, click the down arrow at the top of the window and click "Ethereum Mainnet".
+3. Click the MetaMask icon and confirm that you are on the Ethereum mainnet / Arbitrum network. If not, click the down arrow at the top of the window and click "Ethereum Mainnet" / "Arbitrum".
 4. Congratulations, you are now connected to Basin. Double check that your wallet address in the top right of the website is the same as your MetaMask wallet address.
 
 ### **Connect to Basin with MetaMask - Mobile**
@@ -70,4 +70,4 @@ This step may be unnecessary if you performed Step 2.
 3. Click “Coinbase Wallet”.
 4. If you are using the Coinbase Wallet mobile app, scan the QR code.
 
-Confirm that you are on the Ethereum mainnet via the network dropdown in the top right. If so, congratulations, you are now connected to Basin. Double check that your wallet address in the top right of the website is the same as your Coinbase Wallet address.
+Confirm that you are on the Ethereum mainnet / Arbitrum via the network dropdown in the top right. If so, congratulations, you are now connected to Basin. Double check that your wallet address in the top right of the website is the same as your Coinbase Wallet address.

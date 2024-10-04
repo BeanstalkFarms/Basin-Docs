@@ -135,4 +135,4 @@ Congratulations! You have now deployed a new Well on Basin. The new Well will be
 
 **Important Notes**
 
-All of the above can be achieved only assuming all the required components used in the new Well are already deployed. Thourough verification of the components is required beforehand to ensure the Well is deployed correctly. You can find the addresses for audited and deployed versions of each Well component [here](../../resources/contracts.md). Basin is new and constantly evolving, so a limited amount of Well components are available at the moment. As new components get added to the protocol the list of available components will be updated.
+All of the above can be achieved only assuming all the required components used in the new Well are already deployed. Thorough verification of the components is required beforehand to ensure the Well is deployed correctly. You can find the addresses for audited and deployed versions of each Well component [here](../../resources/contracts.md).
