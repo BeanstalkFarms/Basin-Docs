@@ -1,5 +1,9 @@
 # Deploy a Well
 
+{% hint style="info" %}
+See [https://basin.exchange/#/build](https://basin.exchange/#/build) to instead to deploy a Well using the Basin UI.
+{% endhint %}
+
 Basin is a composable DEX protocol, meaning that it has various modular components that can be composed together to create new liquidity pools. These components are [Well Functions](../../components/well.md#well-function), [Well implementations](../../components/well.md#well-implementation) and network-native oracles known as [Pumps](../../components/pump.md).
 
 The simplest way for someone to deploy a new Well is by calling the `boreWell` function on the [Aquifer](../../components/aquifer.md) (factory) contract. `boreWell` accepts the encoded addresses of each Well component as input, along with additional parameters such as the Well's name and symbol and a salt for deterministic address generation. It then verifies that the calldata is valid and clones a pre-deployed Well template with the new parameters. In addition, a mapping of the new Well address to the existing Well Implementation address is stored in the Aquifer contract.

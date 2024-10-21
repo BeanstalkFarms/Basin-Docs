@@ -16,7 +16,7 @@
 
 ### Ecosystem on Arbitrum
 
-<table><thead><tr><th width="214">Contract</th><th>Arbitrum Address</th></tr></thead><tbody><tr><td>Pipeline</td><td><a href="https://arbiscan.io/address/0xb1bE000644bD25996b0d9C2F7a6D6BA3954c91B0">0xb1bE000644bD25996b0d9C2F7a6D6BA3954c91B0</a></td></tr><tr><td>Depot</td><td><a href="https://arbiscan.io/address/0xDEb0f0dEEc1A29ab97ABf65E537452D1B00A619c">0xDEb0f0dEEc1A29ab97ABf65E537452D1B00A619c</a></td></tr><tr><td>Beanstalk</td><td>See <a href="https://docs.bean.money/almanac/protocol/contracts">Beanstalk docs</a></td></tr></tbody></table>
+<table><thead><tr><th width="214">Contract</th><th>Arbitrum Address</th></tr></thead><tbody><tr><td>Pipeline</td><td><a href="https://arbiscan.io/address/0xb1bE000644bD25996b0d9C2F7a6D6BA3954c91B0">0xb1bE000644bD25996b0d9C2F7a6D6BA3954c91B0</a></td></tr><tr><td>Depot</td><td><a href="https://arbiscan.io/address/0xdeb0f082ed3b0efe9257aea9f2e6e974aa4120c3#code">0xdeb0f082ed3b0efe9257aea9f2e6e974aa4120c3</a></td></tr><tr><td>Beanstalk</td><td>See <a href="https://docs.bean.money/almanac/protocol/contracts">Beanstalk docs</a></td></tr></tbody></table>
 
 ***
 
